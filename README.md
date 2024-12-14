@@ -50,6 +50,6 @@ Make sure you have the following installed:
    ```bash
    npm install
    
-  **Or, if you use yarn:**
+    **Or, if you use yarn:**
    ```bash
    yarn install
