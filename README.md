@@ -65,8 +65,8 @@ Shadcn is used for building and managing UI components. Run the following comman
 
    ```bash
    npx shadcn@latest init
-   During Initialization:
 
+During Initialization:
 - Select the default settings when prompted.
 - Choose a color scheme (e.g., neutral or another theme).
 - Allow overwriting the TailwindCSS configuration (select yes).
