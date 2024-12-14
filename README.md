@@ -59,11 +59,6 @@ Install FullCalendar and its required plugins:
    ```bash
    npm install @fullcalendar/core @fullcalendar/interaction @fullcalendar/daygrid  
    npm install @fullcalendar/react @fullcalendar/timegrid
-@fullcalendar/core: Provides the core functionality of FullCalendar.
-@fullcalendar/interaction: Enables user interactions like date selection and drag-and-drop.
-@fullcalendar/daygrid: Adds month (grid) views for the calendar.
-@fullcalendar/react: React wrapper for integrating FullCalendar into React apps.
-@fullcalendar/timegrid: Provides week and day views for time-based scheduling.
 
 2. Initialize Shadcn for UI Components
 Shadcn is used for building and managing UI components. Run the following command to set it up in the project:
@@ -72,16 +67,15 @@ Shadcn is used for building and managing UI components. Run the following comman
    npx shadcn@latest init
    During Initialization:
 
-Select the default settings when prompted.
-Choose a color scheme (e.g., neutral or another theme).
-Allow overwriting the TailwindCSS configuration (select yes).
+- Select the default settings when prompted.
+- Choose a color scheme (e.g., neutral or another theme).
+- Allow overwriting the TailwindCSS configuration (select yes).
 
 3. Add Shadcn Dialog Component
 Add the Dialog component to your project for creating modal popups:
 
    ```bash
    npx shadcn@latest add dialog
-This will generate the necessary Dialog component files, which will be located in the components/ui/dialog folder. These files are used for modals like the "Add Event" and "Edit Event" forms.
 
 4. Restart the Development Server
 After installing the dependencies and components, restart the development server:
