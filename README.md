@@ -45,3 +45,11 @@ Make sure you have the following installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Nihar05032/Dynamic-EventCalendar.git
+   
+2. **Install dependencies: Ensure all required packages are installed:**
+   ```bash
+   npm install
+   
+  **Or, if you use yarn:**
+   ```bash
+   yarn install
